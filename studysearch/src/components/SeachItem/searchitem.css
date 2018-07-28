@@ -1,0 +1,46 @@
+.item {
+    list-style: none;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-bottom: 28px;
+    text-align: left;
+}
+
+.item-title {
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    color: #1a0dab;
+    font-weight: normal;
+}
+
+.item-title a {
+    text-decoration: none;
+}
+
+.item-link {
+    color: #006621;
+    font-size: 14px;
+}
+
+.item-txt {
+    color: #545454;
+    line-height: 18px;
+    margin: 0;
+}
+
+.pagi {
+    display: flex;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.pagi .item {
+    color: #4285f4;
+    font-size: small;
+    font-family: arial, sans-serif;
+}
+
+.active {
+    color: #000 !important;
+}

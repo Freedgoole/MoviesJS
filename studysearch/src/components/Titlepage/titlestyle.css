@@ -1,0 +1,41 @@
+.wr-global {
+    display: flex;
+    height: 100vh;
+    width: 95%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    color: #222;
+}
+.input-gl {
+    box-sizing: border-box;
+    line-height: 44px;
+    padding: 6px 9px 0;
+    height: 44px;
+    font: 16px arial,sans-serif;
+    outline: none;
+    text-align: left;
+    width: 488px;
+    border: none;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border-radius: 2px;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+}
+.btn {
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 2px;
+    color: #757575;
+    cursor: default;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 11px 4px;
+    min-width: 54px;
+    padding: 0 16px;
+    text-align: center;
+    height: 36px;
+    line-height: 27px;
+}
